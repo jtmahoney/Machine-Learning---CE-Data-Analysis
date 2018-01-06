@@ -2,8 +2,7 @@ import xlrd
 #import csv
 import numpy as np
 
-#FILENAME = ['/Users/josephmahoney/Documents/ML-tf/R5330 1 of 9.xlsx',
-#'/Users/josephmahoney/Documents/ML-tf/R5330 2 of 9.xlsx']
+#FILENAME = ['']
 
 def conv(fn): #pass a SINGLE file name
     xl = xlrd.open_workbook(fn)
