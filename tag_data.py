@@ -1,8 +1,7 @@
 import numpy as np
 
 
-FILES = ['/Users/josephmahoney/Documents/ML-tf/R5330 Target 1of9.csv',
-'/Users/josephmahoney/Documents/ML-tf/R5330 Target 2of9.csv']
+FILES = ['']
 
 def read_to_array(file):
     pf = []
