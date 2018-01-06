@@ -5,11 +5,9 @@ from tensorflow.python.framework import ops
 from xl_to_csv import make_array
 from tag_data import read_to_array
 
-TAG_FILES = ['/Users/josephmahoney/Documents/ML-tf/R5330 Target 1of9.csv',
-'/Users/josephmahoney/Documents/ML-tf/R5330 Target 2of9.csv']
+TAG_FILES = ['']
 
-DAT_FILENAMES = ['/Users/josephmahoney/Documents/ML-tf/R5330 1 of 9.xlsx',
-'/Users/josephmahoney/Documents/ML-tf/R5330 2 of 9.xlsx']
+DAT_FILENAMES = ['']
 
 x = make_array(DAT_FILENAMES)
 y = read_to_array(TAG_FILES)
